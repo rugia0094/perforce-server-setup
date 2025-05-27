@@ -9,7 +9,7 @@ SUPERUSER_LOGIN_NAME='login' # p4dctl must be executed by system user with same 
 SUPERUSER_PASSWORD='password' # must be strong
 
 # Delete line below after filling vars above.
-# exit 0
+exit 0
 
 echo '[perforce-server-setup.sh]: Start'
 echo '[perforce-server-setup.sh]: Check if sudo'
