@@ -44,4 +44,4 @@ apt-get install -y p4-server
 
 echo '[perforce-server-setup.sh]: Run configure-p4d.sh'
 
-/opt/perforce/sbin/configure-p4d.sh $SERVICE_NAME -p $P4PORT -r $P4ROOT -u $SUPERUSER_LOGIN_NAME -P $SUPERUSER_PASSWORD --unicode --case 0
+/opt/perforce/sbin/configure-p4d.sh $SERVICE_NAME -n -p $P4PORT -r $P4ROOT -u $SUPERUSER_LOGIN_NAME -P $SUPERUSER_PASSWORD --unicode --case 0
